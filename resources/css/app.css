@@ -1,11 +1,19 @@
-@import 'tailwindcss';
-
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source '../**/*.blade.php';
-@source '../**/*.js';
+@import "tailwindcss";
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+    --font-mono: "Space Mono", ui-monospace, Menlo, monospace;
+    --color-paper: #edefe8;
+    --color-canvas: #e3e7e0;
+    --color-ink: #111111;
+    --color-brand: #b83a47;
+    --color-iter: #3a6f96;
+    --color-rec: #d4892a;
+}
+
+/* Garis belang di bawah navbar */
+.stripe {
+    height: 6px;
+    background:
+        repeating-linear-gradient(90deg, #b83a47 0 28px, #d4892a 28px 56px, #3a6f96 56px 84px);
 }
