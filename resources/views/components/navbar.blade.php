@@ -3,7 +3,7 @@
     $links = [
         ['no' => '01', 'label' => 'Dashboard',         'url' => '#',                   'active' => false],
         ['no' => '02', 'label' => 'Analisis',          'url' => route('analisis'),     'active' => request()->routeIs('analisis')],
-        ['no' => '03', 'label' => 'Tentang Algoritma', 'url' => '#',                   'active' => false],
+        ['no' => '03', 'label' => 'Tentang Algoritma', 'url' => route('tentang'),      'active' => request()->routeIs('tentang')],
     ];
 @endphp
 
