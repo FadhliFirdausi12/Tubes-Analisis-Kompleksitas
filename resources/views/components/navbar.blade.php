@@ -22,7 +22,7 @@
         <nav class="hidden md:flex items-center gap-8 font-mono text-xs">
             @foreach ($links as $l)
                 <a href="{{ $l['url'] }}"
-                   class="pb-1 border-b-2 {{ $l['active'] ? 'border-brand text-brand' : 'border-transparent text-gray-500 hover:text-ink' }}">
+                class="pb-1 border-b-2 {{ $l['active'] ? 'border-brand text-brand' : 'border-transparent text-gray-500 hover:text-ink' }}">
                     <span class="text-rec">{{ $l['no'] }}</span> {{ $l['label'] }}
                 </a>
             @endforeach
