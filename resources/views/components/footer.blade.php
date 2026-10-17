@@ -9,7 +9,7 @@
         <div>
             <h3 class="font-sans font-bold text-sm mb-1">Navigasi</h3>
             <ul>
-                <li><a href="#" class="underline underline-offset-2">Dashboard</a></li>
+                <li><a href="{{ route('dashboard') }}" class="underline underline-offset-2">Dashboard</a></li>
                 <li><a href="{{ route('analisis') }}" class="underline underline-offset-2">Analisis</a></li>
                 <li><a href="{{ route('tentang') }}" class="underline underline-offset-2">Tentang Algoritma</a></li>
             </ul>
