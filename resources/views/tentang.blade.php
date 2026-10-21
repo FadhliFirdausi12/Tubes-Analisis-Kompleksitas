@@ -7,7 +7,7 @@
         </p>
         <h1 class="text-4xl font-bold tracking-tight mt-3">Tentang algoritmanya</h1>
         <p class="font-mono text-xs leading-5 text-gray-700 mt-3 max-w-md">
-            Ringkasan cara kerja kedua pendekatan yang dibandingkan pada halaman Analisis.
+            Ringkasan cara kerja kedua pendekatan yang dibandingkan pada halaman Analisis..
         </p>
 
         {{-- Dua kartu ringkasan --}}
